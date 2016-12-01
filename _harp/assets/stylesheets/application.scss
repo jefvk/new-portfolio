@@ -1,4 +1,4 @@
-$font-stack: garamond;
+$font-stack: oxygen;
 
 body {
       font-family: garamond;
@@ -17,9 +17,10 @@ ul{
   display: flex;
   justify-content: space-around;
 }
+
 .pure-u-1 {
       box-sizing: border-box;
-      border: 1px solid lightgrey;
+      padding: 20px;
 }
 
 .navigatie{
@@ -37,6 +38,7 @@ h1 {
       font-size: 1.2em;
       font-weight: 900;
       font-family: $font-stack;
+      padding-left: 20px;
 }
 
 h2 {
@@ -56,6 +58,39 @@ ul {
       padding: 0;
 }
 
+.frontpage{
+  margin-top: 20px;
+}
+
+.carousel{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.carousel-cell{
+  display: block;
+  width: 30vw;
+  height: 30vw;
+  margin: 5px;
+}
+
+#een{
+    background: orange;
+}
+#twee{
+  background: darkturquoise;
+}
+#drie{
+  background: tomato;
+}
+#vier{
+  background: lightgreen;
+}
+#vijf{
+  background:dodgerblue;
+}
+#zes{
+  background: mediumorchid;
+}
 @media (max-width: 48em) {
       li a {
             color: red;
