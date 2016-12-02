@@ -85,7 +85,7 @@ ul {
   background: darkturquoise;
 }
 #drie{
-  background: tomato;
+  background: saddlebrown;
 }
 #vier{
   background: lightgreen;
@@ -94,8 +94,21 @@ ul {
   background:dodgerblue;
 }
 #zes{
-  background: mediumorchid;
+  background: darkblue;
 }
+#zeven{
+  background: purple;
+}
+
+img{
+  box-sizing: border-box;
+  display: block;
+  border: 5px solid white;
+  width: 95%;
+  height: 95%;
+  margin: 2.5% auto;
+}
+
 @media (max-width: 48em) {
       li a {
             color: red;
