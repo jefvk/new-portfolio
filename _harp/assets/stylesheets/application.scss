@@ -9,7 +9,7 @@ body {
       padding: 20px;
       height: 100vh;
 }
-.pure-u-1, .pure-u-1-3, .pure-u-2-3{
+.pure-u-1, .pure-u-3-4, .pure-u-1-4{
   background: white;
 }
 
@@ -33,6 +33,9 @@ a{
 a:hover, a:focus{
   color: orange;
 }
+.blue:hover, .blue:focus{
+  color: darkturquoise;
+}
 
 h1 {
       font-size: 1.2em;
@@ -51,6 +54,8 @@ p {
       margin-bottom: 25px;
       text-align: left;
       line-height: 1.6em;
+      padding: 20px;
+      text-align: justify;
 }
 
 ul {
@@ -68,8 +73,8 @@ ul {
 }
 .carousel-cell{
   display: block;
-  width: 30vw;
-  height: 30vw;
+  width: 20vw;
+  height: 20vw;
   margin: 5px;
 }
 
