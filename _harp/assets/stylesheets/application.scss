@@ -79,27 +79,29 @@ ul {
 }
 
 #een{
-    background: orange;
+    background: #D4762C;
 }
 #twee{
-  background: darkturquoise;
+  background: #44B8BB;
 }
 #drie{
-  background: saddlebrown;
+  background: #835238;
 }
 #vier{
-  background: lightgreen;
+  background: black;
 }
 #vijf{
-  background:dodgerblue;
+  background: #01ABE6;
 }
 #zes{
-  background: darkblue;
+  background: #085EAF;
 }
 #zeven{
-  background: purple;
+  background: #773289;
 }
-
+#acht{
+  background: #0FB9DE;
+}
 img{
   box-sizing: border-box;
   display: block;
@@ -122,4 +124,14 @@ img{
 
 .invisible{
   display: none;
+}
+
+.hdb{
+  padding-left: 20px;
+  padding-top: 0px;
+}
+
+.inportfolio{
+  width: 30%;
+  height: auto;
 }
