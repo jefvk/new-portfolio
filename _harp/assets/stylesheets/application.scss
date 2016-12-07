@@ -111,16 +111,7 @@ img{
   margin: 2.5% auto;
 }
 
-@media (max-width: 48em) {
-      li a {
-            color: red;
-      }
 
-      li {
-            display: inline;
-            margin-right: 10px;
-      }
-}
 
 .invisible{
   display: none;
@@ -134,4 +125,23 @@ img{
 .inportfolio{
   width: 30%;
   height: auto;
+}
+
+
+@media (max-width: 1100px) {
+      .inportfolio{
+        width: 50%;
+      }
+}
+
+@media (max-width: 700px) {
+      .inportfolio{
+        width: 70%;
+      }
+}
+
+@media (max-width: 450px) {
+      .inportfolio{
+        width: 90%;
+      }
 }
